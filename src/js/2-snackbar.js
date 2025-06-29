@@ -26,7 +26,9 @@ form.addEventListener('submit', event => {
     });
 
   form.reset();
-});
+}); 
+
+
 
 function createPromise(delay, state) {
   return new Promise((resolve, reject) => {
