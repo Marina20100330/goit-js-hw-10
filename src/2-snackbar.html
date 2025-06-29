@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Promise Generator</title>
+
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script type="module" src="./js/2-snackbar.js"></script>
+  </head>
+
+  <body>
+    <p><a class="back-link" href="./index.html">Go back</a></p>
+
+    <div class="container-input">
+      <form class="form">
+        <label>
+          Delay (ms)
+          <input class="form-input" type="number" name="delay" required />
+        </label>
+
+        <fieldset class="radio-form">
+          <legend>State</legend>
+          <label class="radio-btn">
+            <input
+              class="radio-title"
+              type="radio"
+              name="state"
+              value="fulfilled"
+              required
+            />
+            Fulfilled
+          </label>
+          <label class="radio-btn">
+            <input
+              class="radio-title"
+              type="radio"
+              name="state"
+              value="rejected"
+              required
+            />
+            Rejected
+          </label>
+        </fieldset>
+
+        <button class="submit-btn" type="submit">Create notification</button>
+      </form>
+    </div>
+  </body>
+</html>
